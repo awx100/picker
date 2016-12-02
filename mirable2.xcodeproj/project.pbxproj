@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCE017171DF2232D00EFBB5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE017161DF2232D00EFBB5E /* AppDelegate.swift */; };
+		BCE017191DF2232D00EFBB5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE017181DF2232D00EFBB5E /* ViewController.swift */; };
+		BCE0171C1DF2232D00EFBB5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE0171A1DF2232D00EFBB5E /* Main.storyboard */; };
+		BCE0171E1DF2232D00EFBB5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE0171D1DF2232D00EFBB5E /* Assets.xcassets */; };
+		BCE017211DF2232D00EFBB5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE0171F1DF2232D00EFBB5E /* LaunchScreen.storyboard */; };
+		BCE0172C1DF2232D00EFBB5E /* mirable2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE0172B1DF2232D00EFBB5E /* mirable2Tests.swift */; };
+		BCE017371DF2232D00EFBB5E /* mirable2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE017361DF2232D00EFBB5E /* mirable2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCE017281DF2232D00EFBB5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE0170B1DF2232D00EFBB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE017121DF2232D00EFBB5E;
+			remoteInfo = mirable2;
+		};
+		BCE017331DF2232D00EFBB5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE0170B1DF2232D00EFBB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE017121DF2232D00EFBB5E;
+			remoteInfo = mirable2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCE017131DF2232D00EFBB5E /* mirable2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mirable2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE017161DF2232D00EFBB5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCE017181DF2232D00EFBB5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCE0171B1DF2232D00EFBB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCE0171D1DF2232D00EFBB5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCE017201DF2232D00EFBB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCE017221DF2232D00EFBB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE017271DF2232D00EFBB5E /* mirable2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mirable2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE0172B1DF2232D00EFBB5E /* mirable2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mirable2Tests.swift; sourceTree = "<group>"; };
+		BCE0172D1DF2232D00EFBB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE017321DF2232D00EFBB5E /* mirable2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mirable2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE017361DF2232D00EFBB5E /* mirable2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mirable2UITests.swift; sourceTree = "<group>"; };
+		BCE017381DF2232D00EFBB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE017101DF2232D00EFBB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE017241DF2232D00EFBB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE0172F1DF2232D00EFBB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE0170A1DF2232D00EFBB5E = {
+			isa = PBXGroup;
+			children = (
+				BCE017151DF2232D00EFBB5E /* mirable2 */,
+				BCE0172A1DF2232D00EFBB5E /* mirable2Tests */,
+				BCE017351DF2232D00EFBB5E /* mirable2UITests */,
+				BCE017141DF2232D00EFBB5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE017141DF2232D00EFBB5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE017131DF2232D00EFBB5E /* mirable2.app */,
+				BCE017271DF2232D00EFBB5E /* mirable2Tests.xctest */,
+				BCE017321DF2232D00EFBB5E /* mirable2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE017151DF2232D00EFBB5E /* mirable2 */ = {
+			isa = PBXGroup;
+			children = (
+				BCE017161DF2232D00EFBB5E /* AppDelegate.swift */,
+				BCE017181DF2232D00EFBB5E /* ViewController.swift */,
+				BCE0171A1DF2232D00EFBB5E /* Main.storyboard */,
+				BCE0171D1DF2232D00EFBB5E /* Assets.xcassets */,
+				BCE0171F1DF2232D00EFBB5E /* LaunchScreen.storyboard */,
+				BCE017221DF2232D00EFBB5E /* Info.plist */,
+			);
+			path = mirable2;
+			sourceTree = "<group>";
+		};
+		BCE0172A1DF2232D00EFBB5E /* mirable2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE0172B1DF2232D00EFBB5E /* mirable2Tests.swift */,
+				BCE0172D1DF2232D00EFBB5E /* Info.plist */,
+			);
+			path = mirable2Tests;
+			sourceTree = "<group>";
+		};
+		BCE017351DF2232D00EFBB5E /* mirable2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE017361DF2232D00EFBB5E /* mirable2UITests.swift */,
+				BCE017381DF2232D00EFBB5E /* Info.plist */,
+			);
+			path = mirable2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE017121DF2232D00EFBB5E /* mirable2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE0173B1DF2232D00EFBB5E /* Build configuration list for PBXNativeTarget "mirable2" */;
+			buildPhases = (
+				BCE0170F1DF2232D00EFBB5E /* Sources */,
+				BCE017101DF2232D00EFBB5E /* Frameworks */,
+				BCE017111DF2232D00EFBB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mirable2;
+			productName = mirable2;
+			productReference = BCE017131DF2232D00EFBB5E /* mirable2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCE017261DF2232D00EFBB5E /* mirable2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE0173E1DF2232D00EFBB5E /* Build configuration list for PBXNativeTarget "mirable2Tests" */;
+			buildPhases = (
+				BCE017231DF2232D00EFBB5E /* Sources */,
+				BCE017241DF2232D00EFBB5E /* Frameworks */,
+				BCE017251DF2232D00EFBB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE017291DF2232D00EFBB5E /* PBXTargetDependency */,
+			);
+			name = mirable2Tests;
+			productName = mirable2Tests;
+			productReference = BCE017271DF2232D00EFBB5E /* mirable2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCE017311DF2232D00EFBB5E /* mirable2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE017411DF2232D00EFBB5E /* Build configuration list for PBXNativeTarget "mirable2UITests" */;
+			buildPhases = (
+				BCE0172E1DF2232D00EFBB5E /* Sources */,
+				BCE0172F1DF2232D00EFBB5E /* Frameworks */,
+				BCE017301DF2232D00EFBB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE017341DF2232D00EFBB5E /* PBXTargetDependency */,
+			);
+			name = mirable2UITests;
+			productName = mirable2UITests;
+			productReference = BCE017321DF2232D00EFBB5E /* mirable2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE0170B1DF2232D00EFBB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bo Zhang";
+				TargetAttributes = {
+					BCE017121DF2232D00EFBB5E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 765R4FCLPR;
+						ProvisioningStyle = Automatic;
+					};
+					BCE017261DF2232D00EFBB5E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 765R4FCLPR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCE017121DF2232D00EFBB5E;
+					};
+					BCE017311DF2232D00EFBB5E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 765R4FCLPR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCE017121DF2232D00EFBB5E;
+					};
+				};
+			};
+			buildConfigurationList = BCE0170E1DF2232D00EFBB5E /* Build configuration list for PBXProject "mirable2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCE0170A1DF2232D00EFBB5E;
+			productRefGroup = BCE017141DF2232D00EFBB5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE017121DF2232D00EFBB5E /* mirable2 */,
+				BCE017261DF2232D00EFBB5E /* mirable2Tests */,
+				BCE017311DF2232D00EFBB5E /* mirable2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCE017111DF2232D00EFBB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE017211DF2232D00EFBB5E /* LaunchScreen.storyboard in Resources */,
+				BCE0171E1DF2232D00EFBB5E /* Assets.xcassets in Resources */,
+				BCE0171C1DF2232D00EFBB5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE017251DF2232D00EFBB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE017301DF2232D00EFBB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE0170F1DF2232D00EFBB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE017191DF2232D00EFBB5E /* ViewController.swift in Sources */,
+				BCE017171DF2232D00EFBB5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE017231DF2232D00EFBB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE0172C1DF2232D00EFBB5E /* mirable2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE0172E1DF2232D00EFBB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE017371DF2232D00EFBB5E /* mirable2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCE017291DF2232D00EFBB5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE017121DF2232D00EFBB5E /* mirable2 */;
+			targetProxy = BCE017281DF2232D00EFBB5E /* PBXContainerItemProxy */;
+		};
+		BCE017341DF2232D00EFBB5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE017121DF2232D00EFBB5E /* mirable2 */;
+			targetProxy = BCE017331DF2232D00EFBB5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCE0171A1DF2232D00EFBB5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE0171B1DF2232D00EFBB5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCE0171F1DF2232D00EFBB5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE017201DF2232D00EFBB5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCE017391DF2232D00EFBB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCE0173A1DF2232D00EFBB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE0173C1DF2232D00EFBB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 765R4FCLPR;
+				INFOPLIST_FILE = mirable2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BZ.mirable2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BCE0173D1DF2232D00EFBB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 765R4FCLPR;
+				INFOPLIST_FILE = mirable2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BZ.mirable2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BCE0173F1DF2232D00EFBB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 765R4FCLPR;
+				INFOPLIST_FILE = mirable2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BZ.mirable2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mirable2.app/mirable2";
+			};
+			name = Debug;
+		};
+		BCE017401DF2232D00EFBB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 765R4FCLPR;
+				INFOPLIST_FILE = mirable2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BZ.mirable2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mirable2.app/mirable2";
+			};
+			name = Release;
+		};
+		BCE017421DF2232D00EFBB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 765R4FCLPR;
+				INFOPLIST_FILE = mirable2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BZ.mirable2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mirable2;
+			};
+			name = Debug;
+		};
+		BCE017431DF2232D00EFBB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 765R4FCLPR;
+				INFOPLIST_FILE = mirable2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BZ.mirable2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mirable2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE0170E1DF2232D00EFBB5E /* Build configuration list for PBXProject "mirable2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE017391DF2232D00EFBB5E /* Debug */,
+				BCE0173A1DF2232D00EFBB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE0173B1DF2232D00EFBB5E /* Build configuration list for PBXNativeTarget "mirable2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE0173C1DF2232D00EFBB5E /* Debug */,
+				BCE0173D1DF2232D00EFBB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCE0173E1DF2232D00EFBB5E /* Build configuration list for PBXNativeTarget "mirable2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE0173F1DF2232D00EFBB5E /* Debug */,
+				BCE017401DF2232D00EFBB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCE017411DF2232D00EFBB5E /* Build configuration list for PBXNativeTarget "mirable2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE017421DF2232D00EFBB5E /* Debug */,
+				BCE017431DF2232D00EFBB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE0170B1DF2232D00EFBB5E /* Project object */;
+}
