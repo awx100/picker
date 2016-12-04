@@ -176,6 +176,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6E-Fl-fFs">
+                                <rect key="frame" x="95" y="625" width="225" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Qow-9p-qEr"/>
+                                    <constraint firstAttribute="width" constant="225" id="gvL-1b-Mzy"/>
+                                </constraints>
+                                <state key="normal" title="BuyNowBtn" image="buyNowBtn"/>
+                                <connections>
+                                    <action selector="buyNowBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lkC-cC-kxH"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="successIndicator" translatesAutoresizingMaskIntoConstraints="NO" id="66S-QU-X2y">
+                                <rect key="frame" x="117" y="278" width="180" height="180"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
@@ -197,13 +211,16 @@
                             <constraint firstItem="676-Qf-DEq" firstAttribute="leading" secondItem="WI3-34-gLX" secondAttribute="leading" id="HgX-pt-foJ"/>
                             <constraint firstItem="XYz-qk-2eO" firstAttribute="top" secondItem="LyC-j2-h6P" secondAttribute="bottom" constant="8" id="HrV-Er-EsM"/>
                             <constraint firstItem="ItG-GP-XlR" firstAttribute="trailing" secondItem="676-Qf-DEq" secondAttribute="trailing" id="JBa-2h-l5d"/>
+                            <constraint firstItem="66S-QU-X2y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kre-Cq-otp"/>
                             <constraint firstItem="Pmz-6D-cPZ" firstAttribute="top" secondItem="LyC-j2-h6P" secondAttribute="bottom" constant="3" id="LHE-aW-Rpw"/>
                             <constraint firstItem="XYz-qk-2eO" firstAttribute="leading" secondItem="iqi-ug-rhL" secondAttribute="leading" id="Lh9-bb-7fn"/>
                             <constraint firstItem="Z21-Zy-JxX" firstAttribute="leading" secondItem="ItG-GP-XlR" secondAttribute="leading" id="Lq6-ue-BRf"/>
                             <constraint firstItem="G8g-yn-Fse" firstAttribute="leading" secondItem="XYz-qk-2eO" secondAttribute="leading" id="Mg2-V3-nZe"/>
                             <constraint firstItem="XYz-qk-2eO" firstAttribute="trailing" secondItem="iqi-ug-rhL" secondAttribute="trailing" id="NLE-fI-agL"/>
                             <constraint firstItem="y6y-Z3-b54" firstAttribute="leading" secondItem="Cb8-Ko-C4g" secondAttribute="leading" id="O6V-Ml-uDJ"/>
+                            <constraint firstItem="E6E-Fl-fFs" firstAttribute="top" secondItem="gW4-r3-vog" secondAttribute="bottom" constant="30" id="PgC-Xt-HQe"/>
                             <constraint firstItem="y6y-Z3-b54" firstAttribute="top" secondItem="Cb8-Ko-C4g" secondAttribute="bottom" constant="8" id="Q4b-iy-SFU"/>
+                            <constraint firstItem="66S-QU-X2y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SrD-gs-3xS"/>
                             <constraint firstItem="iqi-ug-rhL" firstAttribute="top" secondItem="y6y-Z3-b54" secondAttribute="bottom" constant="9" id="UB8-6n-VO1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="WI3-34-gLX" secondAttribute="trailing" constant="20" id="UW3-tD-ydG"/>
                             <constraint firstItem="Z21-Zy-JxX" firstAttribute="trailing" secondItem="ItG-GP-XlR" secondAttribute="trailing" id="Wh6-7N-81B"/>
@@ -226,16 +243,30 @@
                             <constraint firstItem="LyC-j2-h6P" firstAttribute="top" secondItem="iqi-ug-rhL" secondAttribute="bottom" constant="8" id="s5g-vg-HuX"/>
                             <constraint firstItem="2VE-T6-EO9" firstAttribute="top" secondItem="Cez-14-bqA" secondAttribute="bottom" constant="8" id="tGg-Pd-zuE"/>
                             <constraint firstItem="Z21-Zy-JxX" firstAttribute="top" secondItem="ItG-GP-XlR" secondAttribute="bottom" constant="8" id="u2o-N3-Aqd"/>
+                            <constraint firstItem="E6E-Fl-fFs" firstAttribute="centerX" secondItem="gW4-r3-vog" secondAttribute="centerX" id="yAp-Ev-uEp"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="Address" destination="Z21-Zy-JxX" id="vPt-2A-clU"/>
+                        <outlet property="buyNowBtn" destination="E6E-Fl-fFs" id="FTd-ay-cN8"/>
+                        <outlet property="city" destination="Cb8-Ko-C4g" id="5yu-gZ-RkQ"/>
                         <outlet property="country" destination="XYz-qk-2eO" id="gw6-5D-dab"/>
+                        <outlet property="divider" destination="WI3-34-gLX" id="RbK-QW-FBt"/>
+                        <outlet property="enterYourAddress" destination="Pkz-C2-68U" id="jfd-aP-xr6"/>
+                        <outlet property="enterYourCity" destination="y6y-Z3-b54" id="UhP-dO-jeP"/>
                         <outlet property="enterYourCountry" destination="G8g-yn-Fse" id="27t-W3-6B2"/>
+                        <outlet property="enterYourName" destination="ItG-GP-XlR" id="Cfl-fu-AYi"/>
                         <outlet property="enterYourZipcode" destination="gW4-r3-vog" id="kQC-L4-h8r"/>
+                        <outlet property="fullName" destination="676-Qf-DEq" id="4tS-Ko-jdr"/>
+                        <outlet property="miraclePill" destination="Cez-14-bqA" id="wD3-cX-blp"/>
+                        <outlet property="pillLabel" destination="2VE-T6-EO9" id="Y5z-us-EqM"/>
+                        <outlet property="price" destination="f8N-Fo-PUi" id="V8u-Tj-J45"/>
+                        <outlet property="state" destination="iqi-ug-rhL" id="qdi-5b-9jy"/>
                         <outlet property="statePicker" destination="Pmz-6D-cPZ" id="uDE-NW-3dx"/>
                         <outlet property="statePickerBtn" destination="LyC-j2-h6P" id="Zdb-H0-urp"/>
+                        <outlet property="success" destination="66S-QU-X2y" id="Dcf-vQ-8ov"/>
                         <outlet property="zipcode" destination="4Xb-Kr-2Cr" id="OaR-2C-Nhf"/>
                     </connections>
                 </viewController>
@@ -245,6 +276,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="buyNowBtn" width="225" height="45"/>
         <image name="miraclePillEmoji" width="90" height="90"/>
+        <image name="successIndicator" width="180" height="180"/>
     </resources>
 </document>

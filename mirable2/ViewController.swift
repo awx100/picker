@@ -22,6 +22,24 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     @IBOutlet weak var enterYourZipcode: UITextField!
     
+    @IBOutlet weak var buyNowBtn: UIButton!
+    
+    @IBOutlet weak var miraclePill: UIImageView!
+    @IBOutlet weak var pillLabel: UILabel!
+    @IBOutlet weak var price: UILabel!
+    
+    @IBOutlet weak var fullName: UILabel!
+    @IBOutlet weak var enterYourName: UITextField!
+    @IBOutlet weak var Address: UILabel!
+    @IBOutlet weak var enterYourAddress: UITextField!
+    @IBOutlet weak var city: UILabel!
+    @IBOutlet weak var enterYourCity: UITextField!
+    @IBOutlet weak var state: UILabel!
+    @IBOutlet weak var divider: UIView!
+    
+    @IBOutlet weak var success: UIImageView!
+    
+    
     let states = ["Alabama", "Arkansaas", "New York", "California", "Maine", "Colorado", "Texas"]
     
     override func viewDidLoad() {
@@ -61,6 +79,34 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         statePickerBtn.setTitle(states[row], for: UIControlState.normal)
         statePicker.isHidden = true
     }
+    
+    @IBAction func buyNowBtnPressed(_ sender: Any) {
+        miraclePill.isHidden = true
+        pillLabel.isHidden = true
+        price.isHidden = true
+        divider.isHidden = true
+        fullName.isHidden = true
+        enterYourName.isHidden = true
+        Address.isHidden = true
+        enterYourAddress.isHidden = true
+        city.isHidden = true
+        enterYourCity.isHidden = true
+        state.isHidden = true
+        statePicker.isHidden = true
+        country.isHidden = true
+        enterYourCountry.isHidden = true
+        zipcode.isHidden = true
+        enterYourZipcode.isHidden = true
+        statePickerBtn.isHidden = true
+        buyNowBtn.isHidden = true
+        
+        success.isHidden = false
+        
+        
+    }
+    
+    
+    
     
 
 }
