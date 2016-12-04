@@ -231,8 +231,12 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="country" destination="XYz-qk-2eO" id="gw6-5D-dab"/>
+                        <outlet property="enterYourCountry" destination="G8g-yn-Fse" id="27t-W3-6B2"/>
+                        <outlet property="enterYourZipcode" destination="gW4-r3-vog" id="kQC-L4-h8r"/>
                         <outlet property="statePicker" destination="Pmz-6D-cPZ" id="uDE-NW-3dx"/>
                         <outlet property="statePickerBtn" destination="LyC-j2-h6P" id="Zdb-H0-urp"/>
+                        <outlet property="zipcode" destination="4Xb-Kr-2Cr" id="OaR-2C-Nhf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

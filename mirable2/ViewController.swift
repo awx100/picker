@@ -14,6 +14,14 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     @IBOutlet weak var statePickerBtn: UIButton!
     
+    @IBOutlet weak var country: UILabel!
+    
+    @IBOutlet weak var enterYourCountry: UITextField!
+    
+    @IBOutlet weak var zipcode: UILabel!
+    
+    @IBOutlet weak var enterYourZipcode: UITextField!
+    
     let states = ["Alabama", "Arkansaas", "New York", "California", "Maine", "Colorado", "Texas"]
     
     override func viewDidLoad() {
@@ -30,6 +38,10 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
 
     @IBAction func stateButtonPressed(_ sender: Any) {
         statePicker.isHidden = false
+        country.isHidden = true
+        enterYourCountry.isHidden = true
+        zipcode.isHidden = true
+        enterYourZipcode.isHidden = true
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
